@@ -1,6 +1,6 @@
 services:
   windows:
-    image: iambjlu/dockur-windows
+    image: dockur/windows
     container_name: windows
     environment:
       VERSION: "7u"
