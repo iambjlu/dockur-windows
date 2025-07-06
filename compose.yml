@@ -4,11 +4,7 @@ services:
     container_name: windows
     environment:
       VERSION: "7u"
-      RAM_SIZE: "16G"
-      CPU_CORES: "4"
       KEYBOARD: "zh-TW"
-      LANGUAGE: "Chinese"
-      DISK_SIZE: "32G"
       USERNAME: "User"
       PASSWORD: "1234"
     devices:
