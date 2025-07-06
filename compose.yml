@@ -1,9 +1,14 @@
 services:
   windows:
-    image: dockurr/windows
+    image: iambjlu/dockur-windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "7u"
+      RAM_SIZE: "16G"
+      CPU_CORES: "4"
+      KEYBOARD: "zh-TW"
+      LANGUAGE: "Chinese"
+      DISK_SIZE: "32G"
     devices:
       - /dev/kvm
       - /dev/net/tun
