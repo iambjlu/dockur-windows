@@ -9,6 +9,8 @@ services:
       KEYBOARD: "zh-TW"
       LANGUAGE: "Chinese"
       DISK_SIZE: "32G"
+      USERNAME: "User"
+      PASSWORD: "1234"
     devices:
       - /dev/kvm
       - /dev/net/tun
